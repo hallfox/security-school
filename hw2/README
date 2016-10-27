@@ -1,0 +1,31 @@
+Taylor Foxhall
+tfoxhal1@binghamton.edu
+
+To run q10.py ensure python3 is installed on the system, along with
+the numpy and matplotlib packages from pip. If you cannot, run the
+following commands in terminal:
+
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+Provided all those steps succeeded you can run `python q10.py` in the
+terminal to view the graphs. Once you're done with the program you
+should clean up the virtual environment by running
+
+```
+deactivate
+rm -rf venv
+```
+
+Equivalently, if you have Jupyter notebook installed along with numpy
+and matplotlib you can view and run the whole assignment with the
+command `jupyter notebook`, and selecting the `graphs.ipynb` file.
+
+10(c) Answer:
+
+The bias decreases as the order of the polynomial increases, while the
+variance increases as the order of the polynomial increases. The
+polynomial with the least error has degree 5.
